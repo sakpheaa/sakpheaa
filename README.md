@@ -1,4 +1,4 @@
-# Ka Rathsakphea Portfolio — Updated Version
+# Ka Rathsakphea
 
 Updated from the supplied portfolio references.
 
