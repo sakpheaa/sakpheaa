@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Ka Rathsakphea — Computer Science student, Automation Engineer and UI/UX Designer.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Ka Rathsakphea — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ka Rathsakphea home"><span></span> SAKPHEA.</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#projects">Project</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="assets/profile.jpg" alt="Ka Rathsakphea">
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>KA RATHSAKPHEA</h1>
+        <p class="hero-role">Automation Engineer <span>·</span> UI/UX Designer</p>
+        <div class="hero-actions">
+          <a class="button button-outline" href="assets/cv.pdf" download>↓ &nbsp; Download CV</a>
+          <a class="button button-dark" href="#contact">Contact Me</a>
+        </div>
+        <div class="social-links" aria-label="Social links">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">⌘</a>
+          <a href="https://t.me/" target="_blank" rel="noreferrer" aria-label="Telegram">➤</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-band" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Browse My Recent</p>
+        <h2>Project</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="assets/project-01.jpg" alt="Mobile application design project">
+          <h3>Project 01</h3>
+          <a class="button button-dark project-link" href="mailto:rathsakpheaka@gmail.com?subject=Project%2001">View project</a>
+        </article>
+        <article class="project-card">
+          <img src="assets/project-02.jpg" alt="Web design and product showcase project">
+          <h3>Project 02</h3>
+          <a class="button button-dark project-link" href="mailto:rathsakpheaka@gmail.com?subject=Project%2002">View project</a>
+        </article>
+        <article class="project-card">
+          <img src="assets/project-03.jpg" alt="Website design project">
+          <h3>Project 03</h3>
+          <a class="button button-dark project-link" href="mailto:rathsakpheaka@gmail.com?subject=Project%2003">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">Get to know more</p>
+        <h2>About Me</h2>
+      </div>
+      <p class="about-text">
+        I'm a Computer Science student at the Royal University of Phnom Penh (RUPP)
+        with a background in Electrical &amp; Automation Engineering.<br>
+        I'm an Automation Engineer specializing in PLC Programming, HMI, SCADA,
+        and industrial automation, while also working as a freelance UI/UX Designer
+        creating clean and user-friendly interfaces.
+      </p>
+      <div class="info-grid">
+        <article class="info-card">
+          <div class="info-icon">✧</div>
+          <h3>Experience</h3>
+          <p>1+ Years</p>
+          <small>Automation &amp; UI/UX Design</small>
+        </article>
+        <article class="info-card">
+          <div class="info-icon">◇</div>
+          <h3>Education</h3>
+          <p>Royal University of Phnom Penh</p>
+          <small>Computer Science Student</small>
+        </article>
+      </div>
+      <div class="skills">
+        <h3>Skills &amp; Focus</h3>
+        <div class="skill-list">
+          <span>PLC Programming</span><span>HMI Design</span><span>SCADA</span>
+          <span>Industrial Automation</span><span>IIoT</span><span>UI/UX Design</span>
+          <span>Figma</span><span>Web Development</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-band" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">Get in Touch</p>
+        <h2>Contact Me</h2>
+      </div>
+      <p class="contact-lead">Let's connect. Thanks for visiting.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:rathsakpheaka@gmail.com">
+          <span>✉ &nbsp; Email</span><strong>rathsakpheaka@gmail.com</strong>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <span>in &nbsp; LinkedIn</span><strong>Rathsakphea Ka</strong>
+        </a>
+      </div>
+      <footer class="footer">
+        <nav aria-label="Footer navigation">
+          <a href="#home">Home</a><a href="#projects">Project</a>
+          <a href="#about">About Me</a><a href="#contact">Contact</a>
+        </nav>
+        <p>RATHSAKPHEA KA.</p>
+        <small>© <span id="year"></span> Ka Rathsakphea. All rights reserved.</small>
+      </footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
