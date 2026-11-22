@@ -1,20 +1,19 @@
-# Ka Rathsakphea 
+# Ka Rathsakphea Portfolio — Updated Version
 
-A responsive static portfolio website based on the design reference you supplied.
+Updated from the supplied portfolio references.
 
-## Preview locally
-1. Extract this ZIP file.
-2. Open `index.html` in your browser.
+## What's new
+- Audiowide display font for headings, logo, buttons and selected labels.
+- Five project cards (Projects 01–05).
+- Updated social and profile icon artwork using inline SVG.
+- Responsive layout for desktop, tablet and mobile.
+- Existing profile and first three project images retained; Projects 04 and 05 added from the supplied reference image.
 
-## Publish free with GitHub Pages
-1. Create or sign in to a GitHub account.
-2. Create a public repository named `YOUR-USERNAME.github.io`.
-3. Upload `index.html`, `styles.css`, `script.js`, and the `assets` folder.
-4. In repository Settings → Pages, enable deployment from the `main` branch (root).
-5. Visit `https://YOUR-USERNAME.github.io`.
+## Publish the update
+Upload and replace `index.html`, `styles.css`, and `script.js` in your existing GitHub repository. Upload the complete `assets` folder and its six JPG files. Commit the changes to the `main` branch.
 
-## Before publishing
-- Replace the social profile links in `index.html` with your real profile URLs.
-- Add your CV as `assets/cv.pdf` so the Download CV button works.
-- Replace the sample project thumbnails and email-to-contact project links with your actual project URLs.
-- Confirm the contact details and experience text are correct.
+## Before final publishing
+- Add your CV as `assets/cv.pdf` for the Download CV button.
+- Replace social profile URLs with your real profile links.
+- Replace the sample project email links with each project's real URL if available.
+- Confirm your email and profile details are correct.
